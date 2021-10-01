@@ -1,0 +1,37 @@
+{
+  "name": "egfwd-nlp-news-evaluation",
+  "version": "1.0.0",
+  "description": "This Project is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server/index.js",
+    "build-prod": "webpack --config webpack.prod.js",
+    "build-dev": "webpack-dev-server  --config webpack.dev.js --open"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenAlaa/egfwd-nlp-news-evaluation.git"
+  },
+  "author": "BenAlaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenAlaa/egfwd-nlp-news-evaluation/issues"
+  },
+  "homepage": "https://github.com/BenAlaa/egfwd-nlp-news-evaluation#readme"
+}
